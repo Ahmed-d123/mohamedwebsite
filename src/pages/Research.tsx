@@ -38,8 +38,8 @@ export default function Research() {
           </div>
         </div>
 
-        <div className="mt-12 bg-gradient-to-br from-black to-gray-900 p-8 rounded-lg border border-gray-700 hover:border-gray-500 transition-all duration-500 hover:shadow-xl hover:scale-[1.02]">
-          <h2 className="text-2xl font-bold text-white mb-4">Research Approach</h2>
+        <div className="mt-12 bg-gradient-to-br from-gray-900 to-black p-8 rounded-lg border border-gray-700 hover:border-gray-500 transition-all duration-500 hover:shadow-xl hover:scale-[1.02] group">
+          <h2 className="text-2xl font-bold text-white mb-4 group-hover:text-gray-100 transition-colors duration-300">Research Approach</h2>
           <p className="text-gray-400 leading-relaxed">
             My research bridges theoretical frameworks with practical applications. Whether investigating the quantum realm
             or classical mechanics, I seek to understand the fundamental principles that govern our universe. This scholarly

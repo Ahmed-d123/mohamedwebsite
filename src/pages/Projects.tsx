@@ -34,8 +34,8 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className="bg-gradient-to-br from-black to-gray-900 p-8 rounded-lg border border-gray-700 hover:border-gray-500 transition-all duration-500 hover:shadow-xl hover:scale-[1.02]">
-          <h2 className="text-2xl font-bold text-white mb-4">Project Philosophy</h2>
+        <div className="bg-gradient-to-br from-gray-900 to-black p-8 rounded-lg border border-gray-700 hover:border-gray-500 transition-all duration-500 hover:shadow-xl hover:scale-[1.02] group">
+          <h2 className="text-2xl font-bold text-white mb-4 group-hover:text-gray-100 transition-colors duration-300">Project Philosophy</h2>
           <p className="text-gray-400 leading-relaxed">
             My projects are grounded in the belief that theoretical physics must be paired with practical engineering.
             Each project tackles real-world problems—from climate change to nuclear safety—demonstrating how scientific
