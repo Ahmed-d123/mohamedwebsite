@@ -9,7 +9,7 @@ export default function Projects() {
         </h1>
 
         <div className="grid md:grid-cols-2 gap-8 mb-12">
-          <div className="bg-gradient-to-br from-gray-900 to-black p-8 rounded-lg border border-gray-700 hover:border-gray-500 transition-all duration-500 shadow-xl hover:shadow-2xl hover:scale-105 hover:-translate-y-2 group">
+          <div className="bg-gray-900 p-8 rounded-lg border border-white/30 hover:border-white transition-all duration-300 hover:transform hover:-translate-y-2 shadow-xl">
             <Lightbulb className="w-12 h-12 text-gray-300 mb-4 group-hover:rotate-12 group-hover:text-white group-hover:scale-110 transition-all duration-500" />
             <h3 className="text-2xl font-bold mb-3 text-white group-hover:text-gray-100 transition-colors duration-300">Solar Energy System</h3>
             <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors duration-300">
