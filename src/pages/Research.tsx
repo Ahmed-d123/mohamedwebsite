@@ -2,10 +2,10 @@ import { BookOpen } from 'lucide-react';
 
 export default function Research() {
   return (
-    <div className="min-h-screen px-6 py-24 bg-gradient-to-br from-gray-900/50 to-black">
+    <div className="min-h-screen px-6 py-24 bg-white">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-5xl font-bold mb-16 text-center">
-          <span className="text-white">05.</span> Research
+        <h1 className="text-5xl font-bold mb-16 text-center text-black">
+          <span className="text-black">05.</span> Research
         </h1>
 
         <div className="space-y-8">
@@ -38,9 +38,9 @@ export default function Research() {
           </div>
         </div>
 
-        <div className="mt-12 bg-gradient-to-br from-gray-900 to-black p-8 rounded-lg border border-gray-700 hover:border-gray-500 transition-all duration-500 hover:shadow-xl hover:scale-[1.02] group">
+        <div className="mt-12 bg-black p-8 rounded-lg border border-white/30 transition-all duration-500 hover:shadow-xl hover:scale-[1.02] group">
           <h2 className="text-2xl font-bold text-white mb-4 group-hover:text-gray-100 transition-colors duration-300">Research Approach</h2>
-          <p className="text-gray-400 leading-relaxed">
+          <p className="text-gray-300 leading-relaxed">
             My research bridges theoretical frameworks with practical applications. Whether investigating the quantum realm
             or classical mechanics, I seek to understand the fundamental principles that govern our universe. This scholarly
             approach ensures that my work contributes meaningfully to the broader scientific community and addresses questions

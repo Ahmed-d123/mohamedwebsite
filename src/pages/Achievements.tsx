@@ -2,7 +2,7 @@ import { Award } from 'lucide-react';
 
 export default function Achievements() {
   return (
-    <div className="min-h-screen px-6 py-24 bg-gradient-to-br from-black to-gray-900/50">
+    <div className="min-h-screen px-6 py-24 bg-black">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-5xl font-bold mb-16 text-center">
           <span className="text-white">02.</span> Key Achievements & Competitions
