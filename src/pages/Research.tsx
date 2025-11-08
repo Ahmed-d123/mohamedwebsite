@@ -9,7 +9,7 @@ export default function Research() {
         </h1>
 
         <div className="space-y-8">
-          <div className="bg-gradient-to-br from-gray-900 to-black p-8 rounded-lg border border-gray-700 hover:border-gray-500 transition-all duration-500 shadow-xl hover:shadow-2xl hover:-translate-y-2 hover:scale-[1.02] group">
+          <div className="bg-black p-8 rounded-lg border border-gray-700 hover:border-gray-500 transition-all duration-500 shadow-xl hover:shadow-2xl hover:-translate-y-2 hover:scale-[1.02] group">
             <BookOpen className="w-10 h-10 text-gray-300 mb-3 group-hover:scale-125 group-hover:text-white group-hover:rotate-6 transition-all duration-500" />
             <h3 className="text-2xl font-bold mb-3 text-white group-hover:text-gray-100 transition-colors duration-300">
               Higgs Boson and Its Effect on Life Formation
@@ -23,7 +23,7 @@ export default function Research() {
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-gray-900 to-black p-8 rounded-lg border border-gray-700 hover:border-gray-500 transition-all duration-500 shadow-xl hover:shadow-2xl hover:-translate-y-2 hover:scale-[1.02] group">
+          <div className="bg-black p-8 rounded-lg border border-gray-700 hover:border-gray-500 transition-all duration-500 shadow-xl hover:shadow-2xl hover:-translate-y-2 hover:scale-[1.02] group">
             <BookOpen className="w-10 h-10 text-gray-300 mb-3 group-hover:scale-125 group-hover:text-white group-hover:-rotate-6 transition-all duration-500" />
             <h3 className="text-2xl font-bold mb-3 text-white group-hover:text-gray-100 transition-colors duration-300">
               Motion with Zero Final Velocity in One Dimension
