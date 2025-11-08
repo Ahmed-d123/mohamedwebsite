@@ -5,7 +5,7 @@ export default function Achievements() {
     <div className="min-h-screen px-6 py-24 bg-white">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-5xl font-bold mb-16 text-center text-black">
-          <span className="text-black">02.</span> Key Achievements & Competitions
+          <span className="text-black"></span> Key Achievements & Competitions
         </h1>
 
         <div className="grid md:grid-cols-3 gap-8">
