@@ -2,7 +2,7 @@ import { User } from 'lucide-react';
 
 export default function About() {
   return (
-    <div className="min-h-screen px-6 py-24 bg-white">
+    <div className="min-h-screen px-6 py-24 bg-gray-50">
       <div className="max-w-5xl mx-auto">
         <h1 className="text-5xl font-bold mb-16 text-center text-black">
           <span className="text-black">01.</span> About Me
@@ -20,14 +20,14 @@ export default function About() {
             />
           </div>
 
-          <div className="bg-black p-8 md:p-12 rounded-lg border border-black/20 shadow-2xl">
-            <User className="w-12 h-12 text-white mb-6" />
-            <p className="text-lg leading-relaxed text-gray-200">
-              A student at the <span className="text-white font-semibold">Applied Technology Nuclear School in Egypt</span>,
+          <div className="bg-white p-8 md:p-12 rounded-lg border border-gray-200 shadow-2xl">
+            <User className="w-12 h-12 text-black mb-6" />
+            <p className="text-lg leading-relaxed text-gray-700">
+              A student at the <span className="text-black font-semibold">Applied Technology Nuclear School in Egypt</span>,
               driven by a deep curiosity about how the world works. My academic journey focuses on an advanced STEM curriculum
               in mathematics, physics, and electricity. I am passionate about solving complex problems and believe that
               knowledge gains true value only when it improves lives. I aim to become a physicist who transforms scientific
-              understanding into <span className="text-white font-semibold">sustainable progress for our world</span>.
+              understanding into <span className="text-black font-semibold">sustainable progress for our world</span>.
             </p>
           </div>
         </div>
