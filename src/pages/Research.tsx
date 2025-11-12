@@ -9,7 +9,7 @@ export default function Research() {
         </h1>
 
         <div className="space-y-8">
-          <div className="bg-gray-50 p-8 rounded-lg border border-gray-200 hover:border-black transition-all duration-500 shadow-xl hover:shadow-2xl hover:-translate-y-2 hover:scale-[1.02] group">
+          <div className="bg-gray-50 p-8 rounded-lg border border-gray-200 hover:border-black transition-all duration-300 shadow-xl hover:shadow-2xl hover:-translate-y-1 hover:scale-[1.02] group">
             <BookOpen className="w-10 h-10 text-black mb-3 group-hover:scale-125 group-hover:rotate-6 transition-all duration-500" />
             <h3 className="text-2xl font-bold mb-3 text-black transition-colors duration-300">
               Higgs Boson and Its Effect on Life Formation
@@ -20,7 +20,7 @@ export default function Research() {
             </p>
           </div>
 
-          <div className="bg-gray-50 p-8 rounded-lg border border-gray-200 hover:border-black transition-all duration-500 shadow-xl hover:shadow-2xl hover:-translate-y-2 hover:scale-[1.02] group">
+          <div className="bg-gray-50 p-8 rounded-lg border border-gray-200 hover:border-black transition-all duration-300 shadow-xl hover:shadow-2xl hover:-translate-y-1 hover:scale-[1.02] group">
             <BookOpen className="w-10 h-10 text-black mb-3 group-hover:scale-125 group-hover:-rotate-6 transition-all duration-500" />
             <h3 className="text-2xl font-bold mb-3 text-black transition-colors duration-300">
               Motion with Zero Final Velocity in One Dimension
@@ -31,7 +31,7 @@ export default function Research() {
             </p>
           </div>
 
-          <div className="bg-gray-50 p-8 rounded-lg border border-gray-200 hover:border-black transition-all duration-500 shadow-xl hover:shadow-2xl hover:-translate-y-2 hover:scale-[1.02] group">
+          <div className="bg-gray-50 p-8 rounded-lg border border-gray-200 hover:border-black transition-all duration-300 shadow-xl hover:shadow-2xl hover:-translate-y-1 hover:scale-[1.02] group">
             <BookOpen className="w-10 h-10 text-black mb-3 group-hover:scale-125 transition-all duration-500" />
             <h3 className="text-2xl font-bold mb-3 text-black transition-colors duration-300">
               TEDx Worldwide Study

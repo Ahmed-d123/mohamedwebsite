@@ -9,7 +9,7 @@ export default function Projects() {
         </h1>
 
         <div className="space-y-8">
-          <div className="bg-white p-8 rounded-lg border border-gray-200 hover:border-black transition-all duration-300 hover:transform hover:-translate-y-2 shadow-xl group">
+          <div className="bg-white p-8 rounded-lg border border-gray-200 hover:border-black transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 hover:scale-[1.02] shadow-xl group">
             <Lightbulb className="w-12 h-12 text-black mb-4 group-hover:rotate-12 group-hover:scale-110 transition-all duration-500" />
             <h3 className="text-2xl font-bold mb-3 text-black">Solar Panel Electricity Generation</h3>
             <p className="text-gray-600 mb-3 font-semibold">Graduation Project</p>
@@ -20,7 +20,7 @@ export default function Projects() {
             </div>
           </div>
 
-          <div className="bg-white p-8 rounded-lg border border-gray-200 hover:border-black transition-all duration-300 hover:transform hover:-translate-y-2 shadow-xl group">
+          <div className="bg-white p-8 rounded-lg border border-gray-200 hover:border-black transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 hover:scale-[1.02] shadow-xl group">
             <Zap className="w-12 h-12 text-black mb-4 group-hover:-rotate-12 group-hover:scale-110 transition-all duration-500" />
             <h3 className="text-2xl font-bold mb-3 text-black">Research Rover</h3>
             <p className="text-gray-600 mb-3 font-semibold">Nuclear Safety Innovation</p>
@@ -31,7 +31,7 @@ export default function Projects() {
             </div>
           </div>
 
-          <div className="bg-white p-8 rounded-lg border border-gray-200 hover:border-black transition-all duration-300 hover:transform hover:-translate-y-2 shadow-xl group">
+          <div className="bg-white p-8 rounded-lg border border-gray-200 hover:border-black transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 hover:scale-[1.02] shadow-xl group">
             <Cpu className="w-12 h-12 text-black mb-4 group-hover:rotate-12 group-hover:scale-110 transition-all duration-500" />
             <h3 className="text-2xl font-bold mb-3 text-black">Smart House Prototype</h3>
             <p className="text-gray-600 mb-3 font-semibold">IoT Application</p>

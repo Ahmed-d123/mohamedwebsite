@@ -9,7 +9,7 @@ export default function PaidWork() {
         </h1>
 
         <div className="space-y-8">
-          <div className="bg-white p-8 rounded-lg border border-gray-200 hover:border-black transition-all duration-300 hover:transform hover:-translate-y-2 shadow-xl">
+          <div className="bg-white p-8 rounded-lg border border-gray-200 hover:border-black transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 hover:scale-[1.02] shadow-xl">
             <Briefcase className="w-12 h-12 text-black mb-4" />
             <h3 className="text-2xl font-bold mb-3 text-black">DSAT Math Prep Academy</h3>
             <p className="text-gray-600 mb-3">Founder & Coach</p>
@@ -25,7 +25,7 @@ export default function PaidWork() {
             </ul>
           </div>
 
-          <div className="bg-white p-8 rounded-lg border border-gray-200 hover:border-black transition-all duration-300 hover:transform hover:-translate-y-2 shadow-xl">
+          <div className="bg-white p-8 rounded-lg border border-gray-200 hover:border-black transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 hover:scale-[1.02] shadow-xl">
             <Briefcase className="w-12 h-12 text-black mb-4" />
             <h3 className="text-2xl font-bold mb-3 text-black">Educational Books Writer</h3>
             <p className="text-gray-600 mb-3">Content Creator & Formatter</p>
@@ -41,7 +41,7 @@ export default function PaidWork() {
             </ul>
           </div>
 
-          <div className="bg-white p-8 rounded-lg border border-gray-200 hover:border-black transition-all duration-300 hover:transform hover:-translate-y-2 shadow-xl">
+          <div className="bg-white p-8 rounded-lg border border-gray-200 hover:border-black transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 hover:scale-[1.02] shadow-xl">
             <Briefcase className="w-12 h-12 text-black mb-4" />
             <h3 className="text-2xl font-bold mb-3 text-black">Al-Hamd Office</h3>
             <p className="text-gray-600 mb-3">Accountant Assistant</p>

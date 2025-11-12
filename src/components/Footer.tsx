@@ -8,21 +8,21 @@ export default function Footer() {
         <div className="flex justify-center gap-6 mb-8 flex-wrap">
           <a
             href="mailto:contact@example.com"
-            className="flex items-center gap-2 px-6 py-3 bg-gray-900 border border-gray-700 rounded-lg hover:border-gray-500 hover:bg-gray-800 transition-all duration-300 text-white"
+            className="flex items-center gap-2 px-6 py-3 bg-gray-900 border border-gray-700 rounded-lg hover:border-gray-500 hover:bg-gray-800 transition-all duration-300 text-white hover:-translate-y-1 hover:shadow-lg"
           >
             <Mail className="w-5 h-5" />
             <span>Email</span>
           </a>
           <a
             href="https://linkedin.com"
-            className="flex items-center gap-2 px-6 py-3 bg-gray-900 border border-gray-700 rounded-lg hover:border-gray-500 hover:bg-gray-800 transition-all duration-300 text-white"
+            className="flex items-center gap-2 px-6 py-3 bg-gray-900 border border-gray-700 rounded-lg hover:border-gray-500 hover:bg-gray-800 transition-all duration-300 text-white hover:-translate-y-1 hover:shadow-lg"
           >
             <Linkedin className="w-5 h-5" />
             <span>LinkedIn</span>
           </a>
           <a
             href="#"
-            className="flex items-center gap-2 px-6 py-3 bg-white text-black font-semibold rounded-lg hover:bg-gray-200 transition-all duration-300 shadow-lg"
+            className="flex items-center gap-2 px-6 py-3 bg-white text-black font-semibold rounded-lg hover:bg-gray-200 transition-all duration-300 shadow-lg hover:-translate-y-1 hover:shadow-xl"
           >
             <Download className="w-5 h-5" />
             <span>Download CV</span>
