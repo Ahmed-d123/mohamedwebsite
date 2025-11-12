@@ -27,10 +27,16 @@ export default function Navigation() {
               Achievements
             </Link>
             <Link
-              to="/leadership"
-              className={`transition-colors ${isActive('/leadership') ? 'text-black' : 'hover:text-black text-gray-600'}`}
+              to="/paid-work"
+              className={`transition-colors ${isActive('/paid-work') ? 'text-black' : 'hover:text-black text-gray-600'}`}
             >
-              Leadership
+              Paid Work
+            </Link>
+            <Link
+              to="/activities"
+              className={`transition-colors ${isActive('/activities') ? 'text-black' : 'hover:text-black text-gray-600'}`}
+            >
+              Activities
             </Link>
             <Link
               to="/projects"
@@ -74,8 +80,17 @@ export default function Navigation() {
               <span>Download CV</span>
             </a>
           </div>
-          <p className="text-gray-600 text-sm">
+          <p className="text-gray-600 text-sm mb-4">
             Built with passion for physics and a vision for a sustainable future
+          </p>
+          <p className="text-gray-600 text-sm">
+            <a href="mailto:muhamed.ahmed.elewa@gmail.com" className="hover:text-black font-semibold">
+              muhamed.ahmed.elewa@gmail.com
+            </a>
+            {' | '}
+            <a href="tel:+201028858775" className="hover:text-black font-semibold">
+              +20 102 885 8775
+            </a>
           </p>
         </div>
       </footer>

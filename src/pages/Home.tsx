@@ -62,7 +62,7 @@ export default function Home() {
             Mohamed Ahmed Said Elewa
           </h1>
           <p className="text-2xl md:text-3xl text-gray-700 mb-8 font-light">
-            Aspiring Physicist & STEM Innovator
+            Physicist Researcher & STEM Innovator
           </p>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-12">
             From Subatomic Particles to Sustainable Solutions
@@ -71,7 +71,7 @@ export default function Home() {
             onClick={() => scrollToSection('about')}
             className="px-8 py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition-all duration-300 shadow-lg"
           >
-            Explore Portfolio
+            Scroll for more
           </button>
         </div>
       </section>
@@ -111,7 +111,7 @@ export default function Home() {
       <section id="achievements" className="min-h-screen px-6 py-24 bg-gray-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-5xl font-bold mb-16 text-center text-black">
-            <span className="text-black">02.</span> Key Achievements & Competitions
+            Achievements
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8 mb-16">
@@ -148,10 +148,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="leadership" className="min-h-screen px-6 py-24 bg-white">
+      <section id="activities" className="min-h-screen px-6 py-24 bg-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-5xl font-bold mb-16 text-center text-black">
-            <span className="text-black">03.</span> Leadership & Mentorship
+            Activities
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
@@ -195,7 +195,7 @@ export default function Home() {
       <section id="projects" className="min-h-screen px-6 py-24 bg-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-5xl font-bold mb-16 text-center text-black">
-            <span className="text-black">04.</span> Applied Projects
+            Projects
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
@@ -238,7 +238,7 @@ export default function Home() {
       <section id="research" className="min-h-screen px-6 py-24 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-5xl font-bold mb-16 text-center text-black">
-            <span className="text-black">05.</span> Research
+            Research
           </h2>
 
           <div className="space-y-8 mb-12">

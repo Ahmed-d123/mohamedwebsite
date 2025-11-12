@@ -5,7 +5,7 @@ export default function About() {
     <div className="min-h-screen px-6 py-24 bg-gray-50">
       <div className="max-w-5xl mx-auto">
         <h1 className="text-5xl font-bold mb-16 text-center text-black">
-          <span className="text-black"></span> About Me
+          About
         </h1>
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
@@ -22,13 +22,20 @@ export default function About() {
 
           <div className="bg-white p-8 md:p-12 rounded-lg border border-gray-200 shadow-2xl">
             <User className="w-12 h-12 text-black mb-6" />
-            <p className="text-lg leading-relaxed text-gray-700">
-              A student at the <span className="text-black font-semibold">Applied Technology Nuclear School in Egypt</span>,
-              driven by a deep curiosity about how the world works. My academic journey focuses on an advanced STEM curriculum
-              in mathematics, physics, and electricity. I am passionate about solving complex problems and believe that
-              knowledge gains true value only when it improves lives. I aim to become a physicist who transforms scientific
-              understanding into <span className="text-black font-semibold">sustainable progress for our world</span>.
-            </p>
+            <div className="space-y-4 text-gray-700">
+              <p className="text-lg leading-relaxed">
+                <span className="text-black font-semibold">Student</span> at the Applied Technology Nuclear School (Electricity Department) with a <span className="text-black font-semibold">Cumulative Grade of 93.25%</span>.
+              </p>
+              <p className="text-lg leading-relaxed">
+                Physics researcher, <span className="text-black font-semibold">TEDxMillennium speaker</span>, and passionate mentor committed to advancing STEM education across Africa.
+              </p>
+              <p className="text-lg leading-relaxed">
+                Recognized for achieving <span className="text-black font-semibold">Africa's highest historical scores in OPHO & IPHB</span> competitions.
+              </p>
+              <p className="text-lg leading-relaxed">
+                <span className="text-black font-semibold">Co-Founder of ATSNEE Physics Club</span> and <span className="text-black font-semibold">Founder of DSAT Math Prep Academy</span>, building communities dedicated to scientific excellence and mentorship.
+              </p>
+            </div>
           </div>
         </div>
       </div>
