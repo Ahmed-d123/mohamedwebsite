@@ -10,20 +10,20 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-white text-black">
-      <section id="hero" className="min-h-screen flex flex-col items-center justify-center px-6 pt-20 bg-gradient-to-br from-white to-gray-50">
-        <div className="max-w-4xl text-center">
+      <section id="hero" className="min-h-screen flex items-center justify-center px-6 bg-gradient-to-br from-white to-gray-50">
+        <div className="max-w-4xl text-center flex flex-col items-center justify-center">
           <h1 className="text-6xl md:text-7xl font-bold mb-4 text-black">
             Mohamed Ahmed Said Elewa
           </h1>
           <p className="text-2xl md:text-3xl text-gray-700 mb-8 font-light">
             Physicist Researcher & STEM Innovator
           </p>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed mb-12">
+          <p className="text-lg text-gray-600 max-w-3xl leading-relaxed mb-12">
             Physics researcher with proven excellence in competitions and education
           </p>
           <button
             onClick={() => scrollToSection('about')}
-            className="flex items-center justify-center gap-2 px-8 py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition-all duration-300 mx-auto"
+            className="flex items-center justify-center gap-2 px-8 py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition-all duration-300"
           >
             Scroll for more
             <ChevronDown className="w-5 h-5 animate-bounce" />
