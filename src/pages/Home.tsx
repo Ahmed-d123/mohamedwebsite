@@ -34,11 +34,8 @@ export default function Home() {
           <h1 className="hero-title text-6xl md:text-7xl font-bold mb-4 text-black">
             Mohamed Ahmed Said Elewa
           </h1>
-          <p className="hero-tagline text-2xl md:text-3xl text-gray-700 mb-8 font-light">
+          <p className="hero-tagline text-2xl md:text-3xl text-gray-700 mb-12 font-light">
             Physicist Researcher & STEM Innovator
-          </p>
-          <p className="hero-description text-lg text-gray-600 max-w-3xl leading-relaxed mb-12">
-            Physics researcher with proven excellence in competitions and education
           </p>
           <button
             onClick={() => scrollToSection('about')}

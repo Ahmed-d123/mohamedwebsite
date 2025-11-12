@@ -37,7 +37,7 @@ export default function Navbar() {
           onClick={() => scrollToSection('hero')}
           className="text-[#64FFDA] font-bold text-xl hover:text-[#64FFDA]/80 transition-colors"
         >
-          MSE
+          M.E
         </button>
         <div className="flex gap-6 text-sm">
           <button
