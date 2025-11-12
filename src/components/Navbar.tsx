@@ -42,39 +42,45 @@ export default function Navbar() {
         <div className="flex gap-6 text-sm">
           <button
             onClick={() => scrollToSection('about')}
-            className={`transition-colors ${isActive('about') ? 'text-white' : 'hover:text-white text-gray-400'}`}
+            className={`relative transition-colors ${isActive('about') ? 'text-white' : 'hover:text-white text-gray-400'} group`}
           >
             About
+            <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-white transition-all duration-300 ease-out group-hover:w-full"></span>
           </button>
           <button
             onClick={() => scrollToSection('achievements')}
-            className={`transition-colors ${isActive('achievements') ? 'text-white' : 'hover:text-white text-gray-400'}`}
+            className={`relative transition-colors ${isActive('achievements') ? 'text-white' : 'hover:text-white text-gray-400'} group`}
           >
             Achievements
+            <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-white transition-all duration-300 ease-out group-hover:w-full"></span>
           </button>
           <button
             onClick={() => scrollToSection('paid-work')}
-            className={`transition-colors ${isActive('paid-work') ? 'text-white' : 'hover:text-white text-gray-400'}`}
+            className={`relative transition-colors ${isActive('paid-work') ? 'text-white' : 'hover:text-white text-gray-400'} group`}
           >
             Paid Work
+            <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-white transition-all duration-300 ease-out group-hover:w-full"></span>
           </button>
           <button
             onClick={() => scrollToSection('activities')}
-            className={`transition-colors ${isActive('activities') ? 'text-white' : 'hover:text-white text-gray-400'}`}
+            className={`relative transition-colors ${isActive('activities') ? 'text-white' : 'hover:text-white text-gray-400'} group`}
           >
             Activities
+            <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-white transition-all duration-300 ease-out group-hover:w-full"></span>
           </button>
           <button
             onClick={() => scrollToSection('projects')}
-            className={`transition-colors ${isActive('projects') ? 'text-white' : 'hover:text-white text-gray-400'}`}
+            className={`relative transition-colors ${isActive('projects') ? 'text-white' : 'hover:text-white text-gray-400'} group`}
           >
             Projects
+            <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-white transition-all duration-300 ease-out group-hover:w-full"></span>
           </button>
           <button
             onClick={() => scrollToSection('research')}
-            className={`transition-colors ${isActive('research') ? 'text-white' : 'hover:text-white text-gray-400'}`}
+            className={`relative transition-colors ${isActive('research') ? 'text-white' : 'hover:text-white text-gray-400'} group`}
           >
             Research
+            <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-white transition-all duration-300 ease-out group-hover:w-full"></span>
           </button>
         </div>
       </div>
